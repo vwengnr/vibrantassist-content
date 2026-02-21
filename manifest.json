@@ -9,8 +9,8 @@
       "station": "Station 14-B",
       "area": "Area 3 - Assembly",
       "lead_id": "lead_maria_g",
-      "audio_en": "https://yourdomain.sharepoint.com/sites/vibrantassist/audio/torque_bolt_seq_en.mp3",
-      "audio_es": "https://yourdomain.sharepoint.com/sites/vibrantassist/audio/torque_bolt_seq_es.mp3",
+      "audio_en": "https://raw.githubusercontent.com/vwengnr/vibrantassist-content/main/sample_audio.m4a",
+      "audio_es": "https://raw.githubusercontent.com/vwengnr/vibrantassist-content/main/sample_audio.m4a",
       "steps": 5,
       "version": "1.0"
     },
