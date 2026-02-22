@@ -1,8 +1,7 @@
 {
-  "manifest_version": "1.0",
-  "last_updated": "2026-02-20",
+  "manifest_version": "1.1",
+  "last_updated": "2026-02-21",
   "entries": [
-
     {
       "qr_id": "QR-INST-0042",
       "type": "instruction",
@@ -14,19 +13,17 @@
       "steps": 5,
       "version": "1.0"
     },
-
     {
       "qr_id": "QR-INST-0043",
       "type": "instruction",
-      "station": "Station 14-B",
+      "station": "Station 15-A",
       "area": "Area 3 - Assembly",
       "lead_id": "lead_maria_g",
-      "audio_en": "https://yourdomain.sharepoint.com/sites/vibrantassist/audio/quality_check_en.mp3",
-      "audio_es": "https://yourdomain.sharepoint.com/sites/vibrantassist/audio/quality_check_es.mp3",
+      "audio_en": "https://raw.githubusercontent.com/vwengnr/vibrantassist-content/main/sample_audio.m4a",
+      "audio_es": "https://raw.githubusercontent.com/vwengnr/vibrantassist-content/main/sample_audio.m4a",
       "steps": 3,
       "version": "1.0"
     },
-
     {
       "qr_id": "QR-HELP-0014B",
       "type": "help_request",
@@ -38,35 +35,43 @@
       "steps": 0,
       "version": "1.0"
     },
-
+    {
+      "qr_id": "QR-LEAD-AREA3",
+      "type": "lead_login",
+      "station": "Lead Station",
+      "area": "Area 3 - Assembly",
+      "lead_id": "lead_area3",
+      "audio_en": null,
+      "audio_es": null,
+      "steps": 0,
+      "version": "1.0"
+    },
     {
       "qr_id": "QR-SAFE-001",
       "type": "safety",
       "station": "Global",
       "area": "All Areas",
       "lead_id": null,
-      "audio_en": "https://yourdomain.sharepoint.com/sites/vibrantassist/audio/ppe_reminder_en.mp3",
-      "audio_es": "https://yourdomain.sharepoint.com/sites/vibrantassist/audio/ppe_reminder_es.mp3",
+      "audio_en": "https://raw.githubusercontent.com/vwengnr/vibrantassist-content/main/sample_audio.m4a",
+      "audio_es": "https://raw.githubusercontent.com/vwengnr/vibrantassist-content/main/sample_audio.m4a",
       "steps": 1,
       "version": "1.0"
     }
-
   ],
-
   "leads": [
     {
-      "lead_id": "lead_maria_g",
-      "name": "Maria G.",
+      "lead_id": "lead_area3",
+      "name": "Area 3 Lead",
       "area": "Area 3 - Assembly",
       "push_token": "cmRWk2uYSuig7eUS7rK5yj:APA91bEL1D4cg4UkoGEpIhPPOr2_1fNyiTbIa1xMJk2qBdev9dd6tsUg4sVadPgMn5Cog5R86RbFSAalxokvUsDCZ5hf4JtGXLj5Aoq8WAdpwXkhv7GoV1Q",
-      "notify_email": "maria.g@yourcompany.com"
+      "notify_email": "area3.lead@vibrantworks.org"
     },
     {
       "lead_id": "lead_james_r",
       "name": "James R.",
       "area": "Area 1 - Warehouse",
       "push_token": "FIREBASE_PUSH_TOKEN_HERE",
-      "notify_email": "james.r@yourcompany.com"
+      "notify_email": "james.r@vibrantworks.org"
     }
   ]
 }
